@@ -22,3 +22,82 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+.body{
+    background-color: #F5F8FF;
+
+}
+.mainClass{
+    width: 1140px;
+    margin: 0 auto;
+   
+}
+
+
+
+
+.navClass{
+    /* display:grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 135px;
+    margin-top: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+ li{
+    list-style: none;
+
+}
+.navLi a{
+    color: #8987A1; 
+
+
+}
+.cartlogo {
+    width: 26px;
+    height: 26px;
+
+}
+.naULClass{
+    margin-top: 53px;
+    /* width: 415px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 40px;
+}
+.cartClass{
+    display: flex;
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .navClass{ 
+        display: flex;
+
+        width: 100%;
+        margin: 0px auto ;
+    }
+    .cartClass{
+        justify-content: space-between;
+    }
+   
+    .hid{
+        display: none;
+    }
+    .naULClass{
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+}
