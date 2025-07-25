@@ -155,32 +155,44 @@ a{
 .proHeadr{
     font-weight:bold;
     font-size: 3.1rem;
+    margin-bottom: 0px;
 }
 .spanOur{
     color: #E95A08;
 
 }
 .proPara{
-    padding-top: 16px;
+    /* padding-top: 16px;
     padding-left: 126px;
-    padding-right: 126px;
+    padding-right: 126px; */
     font-size: 1.375rem;
 
 }
+
+
 .cardContainer{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 8%;
+    column-gap: 1.9%;
+    margin-top: 8%;
+   
 
 }
 .cards{
-    max-width: 270px;
-    max-height: 484px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .cardImg{
-    max-width: 100%;
+    width: 100%; 
 }
 .cardHeader{
     font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 0px;
     font-size: 1.375rem;
     text-align: center;
 }
@@ -188,15 +200,20 @@ a{
     font-weight: bold;
     font-size: 1.375rem;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .cardButton {
 
-    max-width: 270px;
-    max-height: 50px;
+     max-width: 270px;
+    /* height: 50px;  */
     font-weight: 600;
     color: white;
     background-color: #E95A08;
-    font-size: 1rem;
+    font-size: .8rem;
+    margin-bottom: 30px;
+    padding: 4% 25%;
+    border: none;
 }
 
 
@@ -206,6 +223,9 @@ a{
     body{
         width: 100%;
         padding-left: 5px;
+    }
+    .proPara{
+        padding-right: 3%;
     }
     .navClass{
         width: 100%;
@@ -244,7 +264,24 @@ a{
 .bannaerPara{
     font-size: 14px;
 }
-    
+
+
+.cardContainer{
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 4%;
+    text-align: center;
+
+}
+.cards{
+    max-width: 170px;
+    height: 320px;
+    margin-bottom: 2%;
+    margin-top: 0;
+}
+   
+.cardButton{
+    padding-left: 20%;
+}
     
     }
     
