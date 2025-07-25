@@ -28,22 +28,35 @@
 
 }
 .mainClass{
-    width: 1140px;
+    max-width: 1140px;
+    /* width: 100%; */
     margin: 0 auto;
    
 }
 
+.dark02{
+  color: rgba(0, 0, 0, 0.5);
+
+}
+.bg-letter{
+  background-image: url(assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
+
+/* navbar */
 .navClass{
     /* display:grid;
     grid-template-columns: repeat(2, 1fr); */
+    /* width: 100%; */
     display:flex;
     justify-content: space-between;
 }
 .logo{
-    width: 135px;
+    max-width: 135px;
     margin-top: 20px;
 
 }
@@ -60,13 +73,13 @@ a{
 
 }
 .cartlogo {
-    width: 26px;
-    height: 26px;
+    max-width: 26px;
+    max-height: 26px;
 
 }
 .naULClass{
     margin-top: 53px;
-    /* width: 415px; */
+    max-width: 415px;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
@@ -77,27 +90,161 @@ a{
 }
 
 
+/* bannerSection */
+
+.bannerSectionClass{
+    /* w-[1140px] h-[461px] mt-[109px] grid grid-cols-2 p */
+    max-width: 1140px;
+    max-height: 461px;
+    margin-top: 109px;
+    display:flex;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    padding: 0px;
+}
+.bannerDescrip{
+    /* w-[570px] h-[299px] */
+    max-width: 570px;
+    max-height: 299px;
+}
+.bannerheading{
+    /* font-bold text-[4.06rem]  */
+    font-weight: 700;
+    font-size: 4.06rem;
+    max-width: 570px;
+    margin-bottom: 0px;
+}
+.spanFresh{
+    /* text-[] */
+    color: #E95A08 ;
+}
+.spanflower{
+    /* gap-0 m-0 noto-serif-font  font-bold text-[4.06rem]  text-[] */
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 4.06rem;
+    color: #E95A08;
+}
+.bannaerPara{
+    padding: 0px;
+    margin-top: 13px;
+     font-size: 1.375rem;
+}
+
+.heroImgclass{
+    max-width: 570px;
+}
+.imageContainer{
+    max-width: 570px;
+    max-height: 355px;
+    margin-top: 90px;
+}
+
+
+
+/* puroductSection */
+.productClass{
+    max-width: 1140px;
+    max-height: 1186px;
+}
+.proDivCls{
+    margin-bottom: 49px;
+    text-align: center;
+}
+.proHeadr{
+    font-weight:bold;
+    font-size: 3.1rem;
+}
+.spanOur{
+    color: #E95A08;
+
+}
+.proPara{
+    padding-top: 16px;
+    padding-left: 126px;
+    padding-right: 126px;
+    font-size: 1.375rem;
+
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.cards{
+    max-width: 270px;
+    max-height: 484px;
+}
+.cardImg{
+    max-width: 100%;
+}
+.cardHeader{
+    font-size: medium;
+    font-size: 1.375rem;
+    text-align: center;
+}
+.cardPara{
+    font-weight: bold;
+    font-size: 1.375rem;
+    text-align: center;
+}
+.cardButton {
+
+    max-width: 270px;
+    max-height: 50px;
+    font-weight: 600;
+    color: white;
+    background-color: #E95A08;
+    font-size: 1rem;
+}
 
 
 
 @media screen and (max-width:576px) {
-    .navClass{ 
-        display: flex;
-
+    
+    body{
         width: 100%;
-        margin: 0px auto ;
+        padding-left: 5px;
     }
-    .cartClass{
+    .navClass{
+        width: 100%;
+        display: flex;
         justify-content: space-between;
     }
-   
-    .hid{
-        display: none;
-    }
     .naULClass{
-        display: flex;
-        margin-left: 20px;
-        margin-right: 20px;
+        width: 100%;
+        margin-left: 130px;
+    }
+    .hid{
+        display:none;
+    }
+    .cartClass{
+        margin-right: 50%;
+    }
+
+    .heroImgclass{
+        width: 100%;
+    }
+
+.bannerSectionClass{
+     flex-direction: column-reverse;    
+}
+.bannerDescrip{
+    width: 361px;
+}
+
+.bannerheading{
+    font-size: 25px;
+}
+.spanflower{
+    font-size: 25px;
+}
+
+.bannaerPara{
+    font-size: 14px;
+}
+    
+    
     }
     
-}
