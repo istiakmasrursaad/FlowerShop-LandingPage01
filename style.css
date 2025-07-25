@@ -217,6 +217,64 @@ a{
 }
 
 
+/* flowers and plants lover */
+.flowrLoverSec{
+    margin-top: 210px;
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* display: flex;
+    justify-content:space-between; */
+
+}
+.loverImg{
+    max-width:100%;
+    margin-top: 210px;
+    
+}
+.Lovbadge{
+    position: relative;
+    width: 286px;
+  height: 286px;
+  right: -350px;
+  bottom: 730px;
+}
+.loverDescrip{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    margin-left: 60px;
+    margin-top: 148px;
+    /* max-width: 540px; */
+    /* max-height: 521px; */
+}
+.loverHeading{
+    font-weight: 700;
+    max-width: 540px;
+    font-size: 3.125rem;
+    margin-bottom: 0px;
+}
+.loverList{
+    margin-top: 14px;
+    max-width: 540px;
+    height: 221px;
+
+}
+.loverList li{
+     list-style:disc;   
+}
+
+.loverLi{
+    margin-bottom: 10px;
+    font-size: 1.375rem;
+
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
     
@@ -281,6 +339,29 @@ a{
    
 .cardButton{
     padding-left: 20%;
+}
+
+.flowrLoverSec{
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 41px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.loverImg{
+    margin-top: 750px;
+}
+.loverDescrip{
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.loverHeading{
+    font-size: 30px;
+}
+.loverList{
+   margin-left: 5px;
+    padding: 0px;
 }
     
     }
