@@ -269,8 +269,49 @@ a{
 
 }
 
+/* join the colorful bunch  */
+.colorfulSection{
+    background-image: url(assets/news-letter-bg.png);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75vh;
+    margin-top: 120px;
+}
 
+.colorfulHeaderCls{
+    font-weight: 700;
+    font-size: 3.125rem;
+    color: white;
 
+}
+
+.colorInp{
+    background:white;
+    display: flex;
+    gap: 0px;
+    width: 53%;
+    height: 12%;
+    margin-right: 0px; 
+   
+   
+}
+.ColorBtn{
+    background-color:#E95A08 ;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 3% 4%;
+    font-size: 1.11rem;
+    margin-left: 0px;
+}
+input[type="email"]{
+    width: 100%;
+}
 
 
 
@@ -363,6 +404,24 @@ a{
    margin-left: 5px;
     padding: 0px;
 }
+
+.bg-letter{
+    width: 393px;
+    
+}
+.colorfulSection{
+    margin-top: 170px;
+     width: 43vh;
+    height: 30vh;
+}
+.colorfulHeaderCls{
+    font-size: 1.8rem;
+}
+.colorInp{
+    width: 70%;
+}
+
+
     
     }
     
