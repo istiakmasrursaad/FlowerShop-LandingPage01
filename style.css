@@ -221,6 +221,7 @@ a{
 .flowrLoverSec{
     margin-top: 210px;
     max-width: 1140px;
+    margin-bottom: 0px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* display: flex;
@@ -268,6 +269,135 @@ a{
     font-size: 1.375rem;
 
 }
+
+/* leatestDeal */
+.headingClass{
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+.spanDeals{
+    color: #E95A08;
+}
+.letestDealPara{
+   
+    /* display: flex;
+    justify-content: center; */
+    /* max-width: 888px; */
+    text-align: center;
+}
+.letestDealClass{
+    /* max-width: 1200px; */
+   margin-top: -150px;
+    margin-bottom: 120px;
+
+}
+
+.item01,.item01 a {
+  position: relative;
+  overflow: hidden; 
+  color: white;
+  border-radius: 14px;
+  max-width: 367px;
+  width: 100%;
+  height: 200px;
+  background: none;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.item01::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(assets/deal-bloom.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1; 
+  border-radius: 14px;
+  z-index: -1;
+}
+
+.Item02, .Item02 a {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    border-radius: 14px;
+    max-width: 367px;
+    height: 200px;
+    background: none;
+    font-weight: 700;
+  text-align: center;
+}
+
+.Item02::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: 14px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/deal-ana.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1; /* fully visible background with dark overlay */
+    z-index: -1;
+}
+
+
+.Item03, .Item03 a {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    border-radius: 14px;
+   max-width: 740px;
+    background: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+.hItem03{
+    margin-top: 25px;
+}
+.leastBtn{
+    margin: 0px;
+    text-decoration:underline;
+}
+
+.Item03::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: 14px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/deal-zabo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    z-index: -1;
+}
+
+.dealContainer{
+    max-width: 1140px;
+    /* height: 423px; */
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr) ;
+ }
+
+
+
+
+
+
+
 
 /* join the colorful bunch  */
 .colorfulSection{
@@ -370,7 +500,7 @@ input[type="email"]{
     
     body{
         width: 100%;
-        padding-left: 5px;
+        padding-left: 0px;
     }
     .proPara{
         padding-right: 3%;
@@ -416,7 +546,7 @@ input[type="email"]{
 
 .cardContainer{
     grid-template-columns: repeat(2,1fr);
-    column-gap: 4%;
+    column-gap: 9%;
     text-align: center;
 
 }
@@ -453,6 +583,9 @@ input[type="email"]{
    margin-left: 5px;
     padding: 0px;
 }
+.loverLi{
+    font-size: 1rem;
+}
 
 .bg-letter{
     width: 393px;
@@ -460,8 +593,12 @@ input[type="email"]{
 }
 .colorfulSection{
     margin-top: 170px;
-     width: 43vh;
-    height: 30vh;
+     width: 100%;
+    height: 250px;
+    margin-left: 0px;
+}
+.ColorBtn{
+     padding: 2% 6%;
 }
 .colorfulHeaderCls{
     font-size: 1.8rem;
@@ -480,6 +617,20 @@ input[type="email"]{
  margin-top: -5px;
  padding: 0px;
 }
-    
+.dealContainer{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.dealContainer{
+    grid-template-columns: repeat(1, 1fr);
+}  
+.Item03{
+    margin-top: 20px;
+    width:92%;
+    height: 150%;
+}
+.cartClass a{
+    width: 100px;
+}
     }
     
