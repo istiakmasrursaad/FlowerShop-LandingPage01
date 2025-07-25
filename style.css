@@ -521,6 +521,9 @@ input[type="email"]{
         margin-right: 50%;
     }
 
+    .headingClass{
+        margin-top: 200px;
+    }
     .heroImgclass{
         width: 100%;
     }
@@ -626,11 +629,14 @@ input[type="email"]{
 }  
 .Item03{
     margin-top: 20px;
-    width:92%;
+    width:98%;
     height: 150%;
 }
 .cartClass a{
     width: 100px;
+}
+.cartlogo{
+    margin-left: -35px;
 }
     }
     
